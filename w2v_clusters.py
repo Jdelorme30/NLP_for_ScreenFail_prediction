@@ -1,7 +1,7 @@
 """
 clustering of word embeddings
 
-@TODO documentation of the module
+Authors: Julie Delorme, Valentin Charvet, Loic Verlingue
 """
 import numpy as np
 
