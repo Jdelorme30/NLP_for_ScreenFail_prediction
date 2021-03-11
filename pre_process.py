@@ -4,6 +4,8 @@ from stop_words import get_stop_words
 stop_wordsFR = get_stop_words('french')
 
 import spacy
+from spacy.lang.fr.examples import sentences 
+
 nlp = spacy.load('fr_core_news_md')
 
 # sind='!"#$%&\'()*+,-/:;.<=>?@[\\]^_`{|}~0123456789'
